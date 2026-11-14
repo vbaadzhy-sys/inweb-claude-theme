@@ -1,0 +1,7 @@
+{
+  "name": "inweb-local",
+  "owner": { "name": "Inweb" },
+  "plugins": [
+    { "name": "inweb-theme", "source": "./", "description": "Тема Claude у кольорах брендбука Inweb 2026" }
+  ]
+}
