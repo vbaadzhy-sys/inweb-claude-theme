@@ -59,12 +59,12 @@ const CALM = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" pr
 const GLASS = { blur: 2, tint: '#0B0D0C', opacity: 0.15 }
 // Дві сцени: «Зростання» за замовчуванням і спокійні відблиски (версія 0.2) на /inweb-theme calm.
 const LOOKS: { growth: ThemeSetArgs; wide: ThemeSetArgs; calm: ThemeSetArgs } = {
-  growth: { colors: theme, backdrop: { scene: 'inweb-growth-4', glass: GLASS } },
+  growth: { colors: theme, backdrop: { scene: 'inweb-growth-5', glass: GLASS } },
   wide: { colors: theme, backdrop: { scene: 'inweb-wide-1', glass: GLASS } },
   calm: { colors: theme, backdrop: { scene: 'inweb-glow-2', glass: GLASS } },
 }
 const SCENES: Record<string, { svg: string; alt: string }> = {
-  'inweb-growth-4': { svg: GROWTH, alt: 'Графік зростання, мережа з імпульсами і стовпчики в кольорах Inweb' },
+  'inweb-growth-5': { svg: GROWTH, alt: 'Графік зростання, мережа з імпульсами і стовпчики в кольорах Inweb' },
   'inweb-wide-1': { svg: WIDE, alt: 'Графік зростання, мережа з імпульсами і стовпчики по краях вікна, в кольорах Inweb' },
   'inweb-glow-2': { svg: CALM, alt: 'Повільне зелене й лаймове світіння на чорному' },
 }
